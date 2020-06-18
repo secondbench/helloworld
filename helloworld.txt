@@ -11,3 +11,6 @@ git push origin master
 if push brings errors like pointing to same reference... then push like this:
 
 git push -f origin master
+/* once you push with -f you can simply
+** git push origin master
+** for further pushes */
