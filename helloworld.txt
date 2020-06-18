@@ -7,3 +7,7 @@ git remote -v	(to check whether we can push)
 git add filename (git add . for all files in the directory)
 git commit -m 'write relevant comment'
 git push origin master
+
+if push brings errors like pointing to same reference... then push like this:
+
+git push -f origin master
