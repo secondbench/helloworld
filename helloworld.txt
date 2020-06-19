@@ -14,3 +14,19 @@ git push -f origin master
 /* once you push with -f you can simply
 ** git push origin master
 ** for further pushes */
+
+To test git pull:
+create directory
+$mkdir github-pull-helloworld
+
+change to the newly created directory
+cd /c/users/user/github-pull-helloworld
+
+now make this new folder as the repository
+git init
+(notice the .git hidden file created in the directory)
+
+
+now pull:
+git pull https://github.com/secondbench/helloworld.git
+
